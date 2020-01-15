@@ -84,7 +84,8 @@ span {
 
 }
 
-span:hover {
+.box-oggetto:hover span{
+
     opacity: 1;
     color:red;
     font-size: 40px;
