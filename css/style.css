@@ -1,5 +1,66 @@
 * {
-    margin:0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+        background-color: lightgrey;
+}
+.box-oggetto {
+    position: relative;
+    display: inline-block;
+    height: 300px;
+    width:450px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sfondo-uno {
+    background-image: url(../img/cell1.jpg);
+}
+
+.sfondo-due {
+    background-image: url(../img/pc.jpg);
+}
+
+.sfondo-tre {
+    background-image: url(../img/tv.jpg);
+}
+
+
+.blocco-sconto {
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    right: 30px;
+    top:5px;
+
+
+}
+
+.colore-sconto1 {
+    background-color: red;
+}
+
+.colore-sconto2{
+    background-color: yellow;
+}
+
+.colore-sconto3 {
+    background-color: blue;
+}
+
+span {
+    position:absolute;
+    bottom: 0;
+    left: 215px;
+    opacity: 0.0
+
+}
+
+span:hover {
+    opacity: 1;
+    color:red;
+    font-size: 40px;
 }
