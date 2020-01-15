@@ -28,6 +28,16 @@ body{
     background-image: url(../img/tv.jpg);
 }
 
+.sfondo-quattro {
+    background-image: url(../img/cuffie.jpg);
+}
+
+.sfondo-cinque {
+    background-image: url(../img/mouse.jpg);
+}
+.sfondo-sei {
+    background-image: url(../img/gopro.jpg);
+}
 
 .blocco-sconto {
     height: 20px;
@@ -49,6 +59,18 @@ body{
 
 .colore-sconto3 {
     background-color: blue;
+}
+
+.colore-sconto4 {
+    background-color: green;
+}
+
+.colore-sconto5 {
+    background-color: yellow;
+}
+
+.colore-sconto6 {
+    background-color: pink;
 }
 
 span {
